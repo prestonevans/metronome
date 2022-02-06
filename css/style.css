@@ -1,0 +1,30 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+main .wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  border-left: thin solid black;
+  border-right: thin solid black;
+}
+main .click {
+  width: 10%;
+  height: 20px;
+  background-color: cadetblue;
+  border-radius: 2rem;
+  animation-name: click;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes click {
+  50% {
+    transform: translateX(calc(500px - 100%));
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
