@@ -15,11 +15,26 @@ main {
 		height: 20px;
 		background-color: cadetblue;
 		border-radius: 2rem;
-		animation-name: click;
-		animation-duration: 1s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
 	}
+	select {
+		display: block;
+		margin: 0 auto;
+	}
+	input[type="button"] {
+		background-color: cadetblue;
+		padding: 1em 3em;
+		color: white;
+		display: block;
+		border-radius: 2em;
+		margin:  0 auto;
+		cursor: pointer;
+	}
+}
+.animation {
+	animation-name: click;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 @keyframes click {
 	50% {
